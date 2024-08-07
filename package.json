@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:utils": "npm --workspace=@mrck-labs/utils run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
