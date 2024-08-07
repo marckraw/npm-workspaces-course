@@ -7,7 +7,8 @@
   "scripts": {
     "dev:vite-react-app": "npm run dev -w @mrck-labs/vite-react-app",
     "dev:utils": "npm run dev -w @mrck-labs/utils",
-    "dev": "concurrently \"npm run dev:utils\" \"npm run dev:vite-react-app\" ",
+    "dev:lib-a": "npm run dev -w @mrck-labs/lib-a",
+    "dev": "concurrently \"npm run dev:lib-a\" \"npm run dev:utils\" \"npm run dev:vite-react-app\" ",
     "build:utils": "npm run build -w @mrck-labs/utils",
     "build:lib-a": "npm run build -w @mrck-labs/lib-a",
     "build": "npm run build:lib-a && npm run build:utils",
