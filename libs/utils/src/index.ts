@@ -9,3 +9,6 @@ export const someFunc = () => {
     liba()
     return "somefunc value"
 }
+
+export * from "./logger/createLogger"
+export * from './env-detection'
