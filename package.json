@@ -5,6 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:vite-react-app": "npm run dev -w @mrck-labs/vite-react-app",
+    "dev:utils": "npm run dev -w @mrck-labs/utils",
+    "dev": "concurrently \"npm run dev:utils\" \"npm run dev:vite-react-app\" ",
     "build:utils": "npm --workspace=@mrck-labs/utils run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +17,8 @@
   "workspaces": [
     "apps/*",
     "libs/*"
-  ]
+  ],
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
 }

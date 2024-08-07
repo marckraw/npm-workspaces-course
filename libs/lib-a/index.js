@@ -1,3 +1,1 @@
-module.exports = {
-    liba: () => console.log("lib A")
-}
+export const liba = () => console.log("lib A")
