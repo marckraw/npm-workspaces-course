@@ -31,7 +31,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mrck-labs/anton-sdk": "*"
+    "@mrck-labs/anton-sdk-test": "*"
   },
   "devDependencies": {
     "@typed/node": "^6.7.0",

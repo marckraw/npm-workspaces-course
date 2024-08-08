@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import {AntonSDK} from "@mrck-labs/anton-sdk";
+import {AntonSDK} from "@mrck-labs/anton-sdk-test";
 
 
 const apiKey = process.env.ANTHROPIC_API_KEY
