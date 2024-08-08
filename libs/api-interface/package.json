@@ -16,7 +16,7 @@
   },
   "tsup": {
     "entry": [
-      "index.ts"
+      "src/index.ts"
     ],
     "dts": true,
     "sourcemap": true,

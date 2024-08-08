@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@mrck-labs/utils": "1.2.3",
+    "@mrck-labs/api-interface": "*",
     "axios": "^1.7.3"
   },
   "devDependencies": {
